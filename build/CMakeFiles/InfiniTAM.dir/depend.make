@@ -390,7 +390,6 @@ CMakeFiles/InfiniTAM.dir/Main/ComputeDisparity.cpp.o: ../ORUtils/PlatformIndepen
 CMakeFiles/InfiniTAM.dir/Main/ComputeDisparity.cpp.o: ../ORUtils/Vector.h
 CMakeFiles/InfiniTAM.dir/Main/ComputeDisparity.cpp.o: ../Utils/FileUtils.h
 CMakeFiles/InfiniTAM.dir/Main/ComputeDisparity.cpp.o: ../Utils/ImageIOpfm.h
-CMakeFiles/InfiniTAM.dir/Main/ComputeDisparity.cpp.o: ../Utils/NVTimer.h
 CMakeFiles/InfiniTAM.dir/Main/ComputeDisparity.cpp.o: ../Main/ComputeDisparity.cpp
 CMakeFiles/InfiniTAM.dir/Main/ComputeDisparity.cpp.o: ../Main/ComputeDisparity.h
 CMakeFiles/InfiniTAM.dir/Main/ComputeDisparity.cpp.o: ../Main/InfiniTAM.h
@@ -801,7 +800,6 @@ CMakeFiles/InfiniTAM.dir/Main/InfiniTAM.cpp.o: ../ORUtils/PlatformIndependence.h
 CMakeFiles/InfiniTAM.dir/Main/InfiniTAM.cpp.o: ../ORUtils/Vector.h
 CMakeFiles/InfiniTAM.dir/Main/InfiniTAM.cpp.o: ../Utils/FileUtils.h
 CMakeFiles/InfiniTAM.dir/Main/InfiniTAM.cpp.o: ../Utils/ImageIOpfm.h
-CMakeFiles/InfiniTAM.dir/Main/InfiniTAM.cpp.o: ../Utils/NVTimer.h
 CMakeFiles/InfiniTAM.dir/Main/InfiniTAM.cpp.o: ../Main/ComputeDisparity.h
 CMakeFiles/InfiniTAM.dir/Main/InfiniTAM.cpp.o: ../Main/InfiniTAM.cpp
 CMakeFiles/InfiniTAM.dir/Main/InfiniTAM.cpp.o: ../Main/InfiniTAM.h
@@ -1212,7 +1210,6 @@ CMakeFiles/InfiniTAM.dir/Main/InfiniTAMThread.cpp.o: ../ORUtils/PlatformIndepend
 CMakeFiles/InfiniTAM.dir/Main/InfiniTAMThread.cpp.o: ../ORUtils/Vector.h
 CMakeFiles/InfiniTAM.dir/Main/InfiniTAMThread.cpp.o: ../Utils/FileUtils.h
 CMakeFiles/InfiniTAM.dir/Main/InfiniTAMThread.cpp.o: ../Utils/ImageIOpfm.h
-CMakeFiles/InfiniTAM.dir/Main/InfiniTAMThread.cpp.o: ../Utils/NVTimer.h
 CMakeFiles/InfiniTAM.dir/Main/InfiniTAMThread.cpp.o: ../Main/ComputeDisparity.h
 CMakeFiles/InfiniTAM.dir/Main/InfiniTAMThread.cpp.o: ../Main/InfiniTAM.h
 CMakeFiles/InfiniTAM.dir/Main/InfiniTAMThread.cpp.o: ../Main/InfiniTAMThread.cpp

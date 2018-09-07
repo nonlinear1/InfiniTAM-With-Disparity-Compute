@@ -428,7 +428,6 @@ Engine/CMakeFiles/Engine.dir/IMUSourceEngine.cpp.o
  ../ITMLib/Utils/ITMLibSettings.h
  ../Main/ComputeDisparity.h
  ../Main/InfiniTAM.h
- ../Utils/NVTimer.h
  /home/w/Desktop/InfiniTAM/Engine/IMUSourceEngine.cpp
  /home/w/Desktop/InfiniTAM/Engine/IMUSourceEngine.h
  /home/w/Desktop/InfiniTAM/Engine/ImageSourceEngine.h
@@ -842,7 +841,6 @@ Engine/CMakeFiles/Engine.dir/ImageSourceEngine.cpp.o
  ../ITMLib/Utils/ITMLibSettings.h
  ../Main/ComputeDisparity.h
  ../Main/InfiniTAM.h
- ../Utils/NVTimer.h
  /home/w/Desktop/InfiniTAM/Engine/ImageSourceEngine.cpp
  /home/w/Desktop/InfiniTAM/Engine/ImageSourceEngine.h
  /home/w/Desktop/InfiniTAM/ITMLib/Engine/DeviceSpecific/CPU/ITMColorTracker_CPU.h
@@ -1260,7 +1258,6 @@ Engine/CMakeFiles/Engine.dir/Kinect2Engine.cpp.o
  ../ITMLib/Utils/VoxelDecayParams.h
  ../Main/ComputeDisparity.h
  ../Main/InfiniTAM.h
- ../Utils/NVTimer.h
  /home/w/Desktop/InfiniTAM/Engine/ImageSourceEngine.h
  /home/w/Desktop/InfiniTAM/Engine/Kinect2Engine.cpp
  /home/w/Desktop/InfiniTAM/Engine/Kinect2Engine.h
@@ -1946,7 +1943,6 @@ Engine/CMakeFiles/Engine.dir/OpenNIEngine.cpp.o
  ../ITMLib/Utils/VoxelDecayParams.h
  ../Main/ComputeDisparity.h
  ../Main/InfiniTAM.h
- ../Utils/NVTimer.h
  /home/w/Desktop/InfiniTAM/Engine/ImageSourceEngine.h
  /home/w/Desktop/InfiniTAM/Engine/OpenNIEngine.cpp
  /home/w/Desktop/InfiniTAM/Engine/OpenNIEngine.h
@@ -2362,7 +2358,6 @@ Engine/CMakeFiles/Engine.dir/PicoFlexxEngine.cpp.o
  ../ITMLib/Utils/VoxelDecayParams.h
  ../Main/ComputeDisparity.h
  ../Main/InfiniTAM.h
- ../Utils/NVTimer.h
  /home/w/Desktop/InfiniTAM/Engine/ImageSourceEngine.h
  /home/w/Desktop/InfiniTAM/Engine/PicoFlexxEngine.cpp
  /home/w/Desktop/InfiniTAM/Engine/PicoFlexxEngine.h
@@ -2778,7 +2773,6 @@ Engine/CMakeFiles/Engine.dir/RealSenseEngine.cpp.o
  ../ITMLib/Utils/VoxelDecayParams.h
  ../Main/ComputeDisparity.h
  ../Main/InfiniTAM.h
- ../Utils/NVTimer.h
  /home/w/Desktop/InfiniTAM/Engine/ImageSourceEngine.h
  /home/w/Desktop/InfiniTAM/Engine/RealSenseEngine.cpp
  /home/w/Desktop/InfiniTAM/Engine/RealSenseEngine.h
@@ -3278,7 +3272,6 @@ Engine/CMakeFiles/Engine.dir/UIEngine.cpp.o
  /home/w/Desktop/InfiniTAM/ORUtils/Vector.h
  /home/w/Desktop/InfiniTAM/Utils/FileUtils.h
  /home/w/Desktop/InfiniTAM/Utils/ImageIOpfm.h
- /home/w/Desktop/InfiniTAM/Utils/NVTimer.h
  /usr/include/eigen3/Eigen/Core
  /usr/include/eigen3/Eigen/src/Core/Array.h
  /usr/include/eigen3/Eigen/src/Core/ArrayBase.h

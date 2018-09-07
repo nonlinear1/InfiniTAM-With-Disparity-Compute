@@ -59,8 +59,6 @@ timer.h
 ../ITMLib/Utils/ITMLibSettings.h
 ../Utils/FileUtils.h
 ../Utils/FileUtils.h
-../Utils/NVTimer.h
-../Utils/NVTimer.h
 ImageSourceEngine.h
 ../Engine/ImageSourceEngine.h
 IMUSourceEngine.h
@@ -68,6 +66,8 @@ IMUSourceEngine.h
 iomanip
 -
 vector
+-
+time.h
 -
 
 ..//ITMLib/Engine/ITMMainEngine.h
@@ -287,16 +287,6 @@ ImageIOpfm.h
 ../Engine/ImageSourceEngine.h
 InfiniTAM.h
 ../Utils/InfiniTAM.h
-
-../Utils/NVTimer.h
-vector
--
-windows.h
--
-ctime
--
-sys/time.h
--
 
 /home/w/Desktop/InfiniTAM/Engine/ImageSourceEngine.h
 ../ITMLib/ITMLib.h

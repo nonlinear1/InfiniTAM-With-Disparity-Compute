@@ -427,7 +427,6 @@ Engine/CMakeFiles/Engine.dir/IMUSourceEngine.cpp.o: ../ITMLib/Engine/ITMMainEngi
 Engine/CMakeFiles/Engine.dir/IMUSourceEngine.cpp.o: ../ITMLib/Utils/ITMLibSettings.h
 Engine/CMakeFiles/Engine.dir/IMUSourceEngine.cpp.o: ../Main/ComputeDisparity.h
 Engine/CMakeFiles/Engine.dir/IMUSourceEngine.cpp.o: ../Main/InfiniTAM.h
-Engine/CMakeFiles/Engine.dir/IMUSourceEngine.cpp.o: ../Utils/NVTimer.h
 Engine/CMakeFiles/Engine.dir/IMUSourceEngine.cpp.o: ../Engine/IMUSourceEngine.cpp
 Engine/CMakeFiles/Engine.dir/IMUSourceEngine.cpp.o: ../Engine/IMUSourceEngine.h
 Engine/CMakeFiles/Engine.dir/IMUSourceEngine.cpp.o: ../Engine/ImageSourceEngine.h
@@ -841,7 +840,6 @@ Engine/CMakeFiles/Engine.dir/ImageSourceEngine.cpp.o: ../ITMLib/Engine/ITMMainEn
 Engine/CMakeFiles/Engine.dir/ImageSourceEngine.cpp.o: ../ITMLib/Utils/ITMLibSettings.h
 Engine/CMakeFiles/Engine.dir/ImageSourceEngine.cpp.o: ../Main/ComputeDisparity.h
 Engine/CMakeFiles/Engine.dir/ImageSourceEngine.cpp.o: ../Main/InfiniTAM.h
-Engine/CMakeFiles/Engine.dir/ImageSourceEngine.cpp.o: ../Utils/NVTimer.h
 Engine/CMakeFiles/Engine.dir/ImageSourceEngine.cpp.o: ../Engine/ImageSourceEngine.cpp
 Engine/CMakeFiles/Engine.dir/ImageSourceEngine.cpp.o: ../Engine/ImageSourceEngine.h
 Engine/CMakeFiles/Engine.dir/ImageSourceEngine.cpp.o: ../ITMLib/Engine/DeviceSpecific/CPU/ITMColorTracker_CPU.h
@@ -1259,7 +1257,6 @@ Engine/CMakeFiles/Engine.dir/Kinect2Engine.cpp.o: ../ITMLib/Utils/ITMOxtsIO.h
 Engine/CMakeFiles/Engine.dir/Kinect2Engine.cpp.o: ../ITMLib/Utils/VoxelDecayParams.h
 Engine/CMakeFiles/Engine.dir/Kinect2Engine.cpp.o: ../Main/ComputeDisparity.h
 Engine/CMakeFiles/Engine.dir/Kinect2Engine.cpp.o: ../Main/InfiniTAM.h
-Engine/CMakeFiles/Engine.dir/Kinect2Engine.cpp.o: ../Utils/NVTimer.h
 Engine/CMakeFiles/Engine.dir/Kinect2Engine.cpp.o: ../Engine/ImageSourceEngine.h
 Engine/CMakeFiles/Engine.dir/Kinect2Engine.cpp.o: ../Engine/Kinect2Engine.cpp
 Engine/CMakeFiles/Engine.dir/Kinect2Engine.cpp.o: ../Engine/Kinect2Engine.h
@@ -1945,7 +1942,6 @@ Engine/CMakeFiles/Engine.dir/OpenNIEngine.cpp.o: ../ITMLib/Utils/ITMOxtsIO.h
 Engine/CMakeFiles/Engine.dir/OpenNIEngine.cpp.o: ../ITMLib/Utils/VoxelDecayParams.h
 Engine/CMakeFiles/Engine.dir/OpenNIEngine.cpp.o: ../Main/ComputeDisparity.h
 Engine/CMakeFiles/Engine.dir/OpenNIEngine.cpp.o: ../Main/InfiniTAM.h
-Engine/CMakeFiles/Engine.dir/OpenNIEngine.cpp.o: ../Utils/NVTimer.h
 Engine/CMakeFiles/Engine.dir/OpenNIEngine.cpp.o: ../Engine/ImageSourceEngine.h
 Engine/CMakeFiles/Engine.dir/OpenNIEngine.cpp.o: ../Engine/OpenNIEngine.cpp
 Engine/CMakeFiles/Engine.dir/OpenNIEngine.cpp.o: ../Engine/OpenNIEngine.h
@@ -2361,7 +2357,6 @@ Engine/CMakeFiles/Engine.dir/PicoFlexxEngine.cpp.o: ../ITMLib/Utils/ITMOxtsIO.h
 Engine/CMakeFiles/Engine.dir/PicoFlexxEngine.cpp.o: ../ITMLib/Utils/VoxelDecayParams.h
 Engine/CMakeFiles/Engine.dir/PicoFlexxEngine.cpp.o: ../Main/ComputeDisparity.h
 Engine/CMakeFiles/Engine.dir/PicoFlexxEngine.cpp.o: ../Main/InfiniTAM.h
-Engine/CMakeFiles/Engine.dir/PicoFlexxEngine.cpp.o: ../Utils/NVTimer.h
 Engine/CMakeFiles/Engine.dir/PicoFlexxEngine.cpp.o: ../Engine/ImageSourceEngine.h
 Engine/CMakeFiles/Engine.dir/PicoFlexxEngine.cpp.o: ../Engine/PicoFlexxEngine.cpp
 Engine/CMakeFiles/Engine.dir/PicoFlexxEngine.cpp.o: ../Engine/PicoFlexxEngine.h
@@ -2777,7 +2772,6 @@ Engine/CMakeFiles/Engine.dir/RealSenseEngine.cpp.o: ../ITMLib/Utils/ITMOxtsIO.h
 Engine/CMakeFiles/Engine.dir/RealSenseEngine.cpp.o: ../ITMLib/Utils/VoxelDecayParams.h
 Engine/CMakeFiles/Engine.dir/RealSenseEngine.cpp.o: ../Main/ComputeDisparity.h
 Engine/CMakeFiles/Engine.dir/RealSenseEngine.cpp.o: ../Main/InfiniTAM.h
-Engine/CMakeFiles/Engine.dir/RealSenseEngine.cpp.o: ../Utils/NVTimer.h
 Engine/CMakeFiles/Engine.dir/RealSenseEngine.cpp.o: ../Engine/ImageSourceEngine.h
 Engine/CMakeFiles/Engine.dir/RealSenseEngine.cpp.o: ../Engine/RealSenseEngine.cpp
 Engine/CMakeFiles/Engine.dir/RealSenseEngine.cpp.o: ../Engine/RealSenseEngine.h
@@ -3277,7 +3271,6 @@ Engine/CMakeFiles/Engine.dir/UIEngine.cpp.o: ../ORUtils/PlatformIndependence.h
 Engine/CMakeFiles/Engine.dir/UIEngine.cpp.o: ../ORUtils/Vector.h
 Engine/CMakeFiles/Engine.dir/UIEngine.cpp.o: ../Utils/FileUtils.h
 Engine/CMakeFiles/Engine.dir/UIEngine.cpp.o: ../Utils/ImageIOpfm.h
-Engine/CMakeFiles/Engine.dir/UIEngine.cpp.o: ../Utils/NVTimer.h
 Engine/CMakeFiles/Engine.dir/UIEngine.cpp.o: /usr/include/eigen3/Eigen/Core
 Engine/CMakeFiles/Engine.dir/UIEngine.cpp.o: /usr/include/eigen3/Eigen/src/Core/Array.h
 Engine/CMakeFiles/Engine.dir/UIEngine.cpp.o: /usr/include/eigen3/Eigen/src/Core/ArrayBase.h

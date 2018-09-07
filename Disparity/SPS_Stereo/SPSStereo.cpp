@@ -933,7 +933,7 @@ void SPSStereo::makeOutputImage(png::image<png::gray_pixel_16>& segmentImage, pn
 	for (int y = 0; y < height_; ++y) {
 		for (int x = 0; x < width_; ++x) {
 			int pixelSegmentIndex = labelImage_[width_*y + x];
-			segmentImage.set_pixel(x, y, pixelSegmentIndex);
+			//segmentImage.set_pixel(x, y, pixelSegmentIndex);
 			double estimatedDisparity = segments_[pixelSegmentIndex].estimatedDisparity(x, y);
 			if (estimatedDisparity <= 0.0 || estimatedDisparity > 255.0) {
 				segmentDisparityImage.set_pixel(x, y, 0);

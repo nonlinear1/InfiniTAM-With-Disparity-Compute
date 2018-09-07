@@ -119,7 +119,6 @@ void GetKittiCalib(const char *fileName, ITMRGBDCalib & calib)
 ImageSourceEngine::ImageSourceEngine(const char *calibFilename)
 {
     GetKittiCalib(calibFilename, calib);
-    //    readRGBDCalib(calibFilename, calib);
 }
 
 ImageFileReader::ImageFileReader(const char *calibFilename, const char *leftRgbImageMask, 
@@ -147,7 +146,7 @@ ImageFileReader::~ImageFileReader()
 
 void ImageFileReader::loadIntoCache(void)
 {
-	if (currentFrameNo == cachedFrameNo) return;
+	if (currentFrameNo == cachedFrameNo && currentFrameNo != 0) return;
 	cachedFrameNo = currentFrameNo;
 
 	//TODO> make nicer
@@ -160,52 +159,39 @@ void ImageFileReader::loadIntoCache(void)
 
     sprintf(str,  leftRgbImageMask,  currentFrameNo);
     sprintf(str2, rightRgbImageMask, currentFrameNo);
+    
+    // if not file mode, read rgb-image and copy to computeDisparity->stereoImage.I1.I2.step.height.width
+    // meanwhile need to wait compute disparity.( wait = true ). 
 	if (!ReadImageFromFile(cached_left_rgb, str, cached_right_rgb, str2)) 
 	{
 		delete cached_left_rgb; cached_left_rgb = NULL;
         delete cached_right_rgb; cached_right_rgb = NULL;
-		printf("error reading file '%s'\n", str);
+        return;
 	}
 	
     Vector2i newSize(cached_left_rgb->noDims.x, cached_left_rgb->noDims.y);
     cached_depth->ChangeDims(newSize);
-//    sprintf(str, depthImageMask, currentFrameNo);
-//    if (!ReadImageFromFile(cached_depth, str))
-//    {
-//        delete cached_depth; cached_depth = NULL;
-//        printf("error reading file '%s'\n", str);
-//    }
 }
 
 bool ImageFileReader::hasMoreImages(void)
 {
 	loadIntoCache();
-	return ((cached_left_rgb!=NULL)&&(cached_depth!=NULL));
+	return ( cached_left_rgb!=NULL );
 }
 
 void ImageFileReader::getImages(ITMUChar4Image *leftRgb, ITMUChar4Image *rightRgb, ITMShortImage *rawDepth)
 {
-// if File mode ,rgb image use cache , depth image dont use cache.
     char str[2048];
     char str2[2048];
 
-    // if not file mode, read rgb-image and copy to computeDisparity->stereoImage.I1.I2.step.height.width
-    // meanwhile need to wait compute disparity.( wait = true ).
-    if(computeDisparity->computeDisparityType != FILE_MODE) {
-        sprintf(str,  leftRgbImageMask,  currentFrameNo);
-        sprintf(str2, rightRgbImageMask, currentFrameNo);
-        if (!ReadImageFromFile(leftRgb, str, rightRgb, str2)) printf("error reading file '%s'\n", str);
+    // RGB use cache
+    leftRgb->SetFrom(cached_left_rgb, ORUtils::MemoryBlock<Vector4u>::CPU_TO_CPU);
+    delete cached_left_rgb;
+    cached_left_rgb = NULL;
 
-        g_WaitComputeDisparity = true;   
-    } else {  
-        // rgb image use cache
-        leftRgb->SetFrom(cached_left_rgb, ORUtils::MemoryBlock<Vector4u>::CPU_TO_CPU);
-		delete cached_left_rgb;
-		cached_left_rgb = NULL;
-    }
-    // depth dont use cache with any mode.
+    // Depth dont use cache 
     sprintf(str, depthImageMask, currentFrameNo);
-    if (!ReadImageFromFile(rawDepth, str)) printf("error reading file '%s'\n", str);
+    ReadImageFromFile(rawDepth, str);
 
 	++currentFrameNo;
 }

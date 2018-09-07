@@ -370,7 +370,7 @@ bool ReadImageFromFile(ITMUChar4Image* leftImage, const char* leftFileName,
   // TODO(andrei): Improve this error handling.
 
 	if (f == NULL) { 
-        fprintf(stderr, "Could not open file %s.\n", leftFileName);
+        fprintf(stderr, "\nCould not open file %s.\n", leftFileName);
         return false;
     }
     type = pnm_readheader(f, &xsize, &ysize, &binary);
@@ -419,6 +419,12 @@ bool ReadImageFromFile(ITMUChar4Image* leftImage, const char* leftFileName,
     // Copy stereo images to computeDisparity stereoImage for compute disparity.
     if(computeDisparity->computeDisparityType != FILE_MODE)
     {
+        if(computeDisparity->stereoImage.I1 != 0)
+        {    free(computeDisparity->stereoImage.I1); computeDisparity->stereoImage.I1 = 0;  }
+
+        if(computeDisparity->stereoImage.I2 != 0)
+        {    free(computeDisparity->stereoImage.I2); computeDisparity->stereoImage.I2 = 0;  }
+        
         IplImage *leftImageForCompute, *rightImageForCompute;
         leftImageForCompute  = cvLoadImage(leftFileName,  CV_LOAD_IMAGE_GRAYSCALE);
         rightImageForCompute = cvLoadImage(rightFileName, CV_LOAD_IMAGE_GRAYSCALE);
@@ -429,6 +435,12 @@ bool ReadImageFromFile(ITMUChar4Image* leftImage, const char* leftFileName,
         computeDisparity->stereoImage.width  = leftImageForCompute->width;
         computeDisparity->stereoImage.height = leftImageForCompute->height;
         computeDisparity->stereoImage.step   = leftImageForCompute->widthStep;
+        
+//         cvReleaseImage(&leftImageForCompute);
+//         cvReleaseImage(&rightImageForCompute);
+        
+        // start calculating the disparity.
+        g_WaitComputeDisparity = true;
     }
 
 	return true;
@@ -447,7 +459,7 @@ bool ReadImageFromFile(ITMShortImage *image, const char *fileName)// for depth f
 
         FILE *f = fopen(fileName, "rb");
         if (f == NULL) {
-            fprintf(stderr, "Could not open file %s.\n", fileName);
+            fprintf(stderr, "\nCould not open file %s.\n", fileName);
             return false;
         }
         FormatType type = pnm_readheader(f, &xsize, &ysize, &binary);
@@ -508,9 +520,8 @@ bool ReadImageFromFile(ITMShortImage *image, const char *fileName)// for depth f
         if(!isPfmFile) fclose(f);
     }
     else {  
-        // Need computeDisparityThread work. wait for disparity.
+        // wait for computeDisparityThread compute disparity.
         while( g_WaitComputeDisparity ) usleep(1);
-
         
         binary = false;
         xsize = computeDisparity->stereoImage.width;

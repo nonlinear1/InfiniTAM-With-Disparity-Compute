@@ -391,7 +391,6 @@ CMakeFiles/InfiniTAM.dir/Main/ComputeDisparity.cpp.o
  ../ORUtils/Vector.h
  ../Utils/FileUtils.h
  ../Utils/ImageIOpfm.h
- ../Utils/NVTimer.h
  /home/w/Desktop/InfiniTAM/Main/ComputeDisparity.cpp
  /home/w/Desktop/InfiniTAM/Main/ComputeDisparity.h
  /home/w/Desktop/InfiniTAM/Main/InfiniTAM.h
@@ -802,7 +801,6 @@ CMakeFiles/InfiniTAM.dir/Main/InfiniTAM.cpp.o
  ../ORUtils/Vector.h
  ../Utils/FileUtils.h
  ../Utils/ImageIOpfm.h
- ../Utils/NVTimer.h
  /home/w/Desktop/InfiniTAM/Main/ComputeDisparity.h
  /home/w/Desktop/InfiniTAM/Main/InfiniTAM.cpp
  /home/w/Desktop/InfiniTAM/Main/InfiniTAM.h
@@ -1213,7 +1211,6 @@ CMakeFiles/InfiniTAM.dir/Main/InfiniTAMThread.cpp.o
  ../ORUtils/Vector.h
  ../Utils/FileUtils.h
  ../Utils/ImageIOpfm.h
- ../Utils/NVTimer.h
  /home/w/Desktop/InfiniTAM/Main/ComputeDisparity.h
  /home/w/Desktop/InfiniTAM/Main/InfiniTAM.h
  /home/w/Desktop/InfiniTAM/Main/InfiniTAMThread.cpp

@@ -5,13 +5,13 @@
 #include "../ITMLib/Engine/ITMMainEngine.h"
 #include "../ITMLib/Utils/ITMLibSettings.h"
 #include "../Utils/FileUtils.h"
-#include "../Utils/NVTimer.h"
 
 #include "ImageSourceEngine.h"
 #include "IMUSourceEngine.h"
 
 #include <iomanip>
 #include <vector>
+#include <time.h>
 
 namespace InfiniTAM
 {
@@ -40,9 +40,6 @@ namespace InfiniTAM
 			ImageSourceEngine *imageSource;
 			IMUSourceEngine *imuSource;
 			ITMMainEngine *mainEngine;
-
-			StopWatchInterface *timer_instant;
-			StopWatchInterface *timer_average;
 
 		private: // For UI layout
             static const int NUM_WIN = 5;
@@ -83,6 +80,7 @@ namespace InfiniTAM
 			{ return winSize; }
 
 			float processedTime;
+            int fps;  // frames per second. 
 			int processedFrameNo;
 			char *outFolder;
 			bool needsRefresh;

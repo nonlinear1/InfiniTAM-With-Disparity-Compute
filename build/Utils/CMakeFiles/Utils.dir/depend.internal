@@ -23,7 +23,6 @@ Utils/CMakeFiles/Utils.dir/FileUtils.cpp.o
  ../Main/ComputeDisparity.h
  ../Main/InfiniTAM.h
  ../Utils/FileUtils.h
- ../Utils/NVTimer.h
  /home/w/Desktop/InfiniTAM/Engine/ImageSourceEngine.h
  /home/w/Desktop/InfiniTAM/ITMLib/Engine/DeviceSpecific/CPU/ITMColorTracker_CPU.h
  /home/w/Desktop/InfiniTAM/ITMLib/Engine/DeviceSpecific/CPU/ITMDepthTracker_CPU.h

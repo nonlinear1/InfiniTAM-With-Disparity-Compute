@@ -59,8 +59,6 @@ timer.h
 ../ITMLib/Utils/ITMLibSettings.h
 ../Utils/FileUtils.h
 ../Utils/FileUtils.h
-../Utils/NVTimer.h
-../Utils/NVTimer.h
 ImageSourceEngine.h
 ../Engine/ImageSourceEngine.h
 IMUSourceEngine.h
@@ -68,6 +66,8 @@ IMUSourceEngine.h
 iomanip
 -
 vector
+-
+time.h
 -
 
 ..//ITMLib/Engine/ITMMainEngine.h
@@ -276,16 +276,6 @@ ITMLib/Engine/ITMMainEngine.h
 ComputeDisparity.h
 ../Main/ComputeDisparity.h
 
-../Utils/NVTimer.h
-vector
--
-windows.h
--
-ctime
--
-sys/time.h
--
-
 /home/w/Desktop/InfiniTAM/Engine/CLIEngine.cpp
 CLIEngine.h
 /home/w/Desktop/InfiniTAM/Engine/CLIEngine.h
@@ -419,8 +409,6 @@ UIEngine.h
 /home/w/Desktop/InfiniTAM/Engine/UIEngine.h
 string.h
 -
-GLUT/glut.h
--
 GL/glut.h
 -
 GL/freeglut.h
@@ -437,8 +425,6 @@ sstream
 /home/w/Desktop/InfiniTAM/ITMLib/Utils/ITMLibSettings.h
 ../Utils/FileUtils.h
 /home/w/Desktop/InfiniTAM/Utils/FileUtils.h
-../Utils/NVTimer.h
-/home/w/Desktop/InfiniTAM/Utils/NVTimer.h
 ImageSourceEngine.h
 /home/w/Desktop/InfiniTAM/Engine/ImageSourceEngine.h
 IMUSourceEngine.h
@@ -446,6 +432,8 @@ IMUSourceEngine.h
 iomanip
 -
 vector
+-
+time.h
 -
 
 /home/w/Desktop/InfiniTAM/ITMLib/Engine/DeviceSpecific/CPU/ITMColorTracker_CPU.h

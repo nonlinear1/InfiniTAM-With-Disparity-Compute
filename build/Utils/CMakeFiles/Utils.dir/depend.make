@@ -22,7 +22,6 @@ Utils/CMakeFiles/Utils.dir/FileUtils.cpp.o: ../ITMLib/Utils/VoxelDecayParams.h
 Utils/CMakeFiles/Utils.dir/FileUtils.cpp.o: ../Main/ComputeDisparity.h
 Utils/CMakeFiles/Utils.dir/FileUtils.cpp.o: ../Main/InfiniTAM.h
 Utils/CMakeFiles/Utils.dir/FileUtils.cpp.o: ../Utils/FileUtils.h
-Utils/CMakeFiles/Utils.dir/FileUtils.cpp.o: ../Utils/NVTimer.h
 Utils/CMakeFiles/Utils.dir/FileUtils.cpp.o: ../Engine/ImageSourceEngine.h
 Utils/CMakeFiles/Utils.dir/FileUtils.cpp.o: ../ITMLib/Engine/DeviceSpecific/CPU/ITMColorTracker_CPU.h
 Utils/CMakeFiles/Utils.dir/FileUtils.cpp.o: ../ITMLib/Engine/DeviceSpecific/CPU/ITMDepthTracker_CPU.h

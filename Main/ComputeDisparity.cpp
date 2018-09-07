@@ -59,7 +59,7 @@ void ComputeDisparity::Run()
     {
         //  infinitam thread dont need to compute disparity , wait for read stereo image.
         while (!g_WaitComputeDisparity) usleep(1);   
-        
+
         int32_t d_width  = this->stereoImage.width;
         int32_t d_height = this->stereoImage.height;
         int32_t d_step   = this->stereoImage.step;    

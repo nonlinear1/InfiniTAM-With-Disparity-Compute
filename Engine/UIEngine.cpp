@@ -3,11 +3,7 @@
 #include "UIEngine.h"
 
 #include <string.h>
-#ifdef __APPLE__
-#include <GLUT/glut.h>
-#else
 #include <GL/glut.h>
-#endif
 
 #ifdef FREEGLUT
 #include <GL/freeglut.h>
@@ -82,9 +78,9 @@ void UIEngine::glutDisplayFunction()
 	glMatrixMode(GL_PROJECTION);
 	glPopMatrix();
 
-	glColor3f(1.0f, 0.0f, 0.0f); glRasterPos2f(0.85f, -0.962f);
+	glColor3f(1.0f, 0.0f, 0.0f); glRasterPos2f(0.52f, -0.962f);
 
-	char str[200]; sprintf(str, "%04.2lf", uiEngine->processedTime);
+	char str[200]; sprintf(str, "Cost : %04.2lfs    F/s : %d    No : %d", uiEngine->processedTime, uiEngine->fps, uiEngine->currentFrameNo);
 	safe_glutBitmapString(GLUT_BITMAP_HELVETICA_18, (const char*)str);
 
 	glRasterPos2f(-0.95f, -0.95f);
@@ -123,14 +119,12 @@ void UIEngine::glutIdleFunction()
     switch (uiEngine->mainLoopAction)
     {
     case PROCESS_FRAME:
-        printf("\n\nFrame (%d).\n", uiEngine->currentFrameNo);
         uiEngine->ProcessFrame(); uiEngine->processedFrameNo++;
         uiEngine->mainLoopAction = PROCESS_PAUSED;
         uiEngine->needsRefresh = true;
         break;
     case PROCESS_VIDEO:
-        printf("\n\nFrame (%d).\n", uiEngine->currentFrameNo);
-        uiEngine->ProcessFrame(); uiEngine->processedFrameNo++;
+        uiEngine->ProcessFrame();  uiEngine->processedFrameNo++;
         uiEngine->needsRefresh = true;
         break;
     case SAVE_TO_DISK:
@@ -144,7 +138,9 @@ void UIEngine::glutIdleFunction()
 #endif
         break;
     case PROCESS_PAUSED:
-    default:
+
+    default: 
+        uiEngine->needsRefresh = true;
         break;
     }
 
@@ -430,15 +426,11 @@ void UIEngine::Initialise(ImageSourceEngine *imageSource, ITMMainEngine *mainEng
 	needsRefresh = false;
 	processedFrameNo = 0;
 	processedTime = 0.0f;
+    
 
 #ifndef COMPILE_WITHOUT_CUDA
     ITMSafeCall(cudaThreadSynchronize());
 #endif
-
-	sdkCreateTimer(&timer_instant);
-	sdkCreateTimer(&timer_average);
-
-	sdkResetTimer(&timer_average);
 
     printf("Initialised.\n");
 }
@@ -462,12 +454,12 @@ void UIEngine::GetScreenshot(ITMUChar4Image *dest) const
 
 void UIEngine::ProcessFrame()
 {
-    if(computeDisparity->computeDisparityType == FILE_MODE)
-    {    if(!imageSource->hasMoreImages()) return; }
-	imageSource->getImages(inputLeftRGBImage, inputRightRGBImage, inputRawDepthImage);
-
-	sdkResetTimer(&timer_instant);
-	sdkStartTimer(&timer_instant); sdkStartTimer(&timer_average);
+    clock_t startTime = clock(), endTime;
+    
+    if(!imageSource->hasMoreImages()) return;  
+    
+	printf("\n\nFrame (%d).\n", ++currentFrameNo);
+    imageSource->getImages(inputLeftRGBImage, inputRightRGBImage, inputRawDepthImage);
 
 	//actual processing on the mailEngine
     mainEngine->ProcessFrame(inputLeftRGBImage, inputRawDepthImage);
@@ -475,20 +467,15 @@ void UIEngine::ProcessFrame()
 #ifndef COMPILE_WITHOUT_CUDA
 	ITMSafeCall(cudaThreadSynchronize());
 #endif
-	sdkStopTimer(&timer_instant); sdkStopTimer(&timer_average);
-
-	//processedTime = sdkGetTimerValue(&timer_instant);
-	processedTime = sdkGetAverageTimerValue(&timer_average);
-
-	currentFrameNo++;
+    
+    endTime = clock();
+	processedTime = (float)(endTime-startTime)/CLOCKS_PER_SEC;
+    fps = int(1/processedTime);
 }
 
 void UIEngine::Run() { glutMainLoop(); }
 void UIEngine::Shutdown()
 {
-	sdkDeleteTimer(&timer_instant);
-	sdkDeleteTimer(&timer_average);
-
 	for (int w = 0; w < NUM_WIN; w++)
 		delete outImage[w];
 
