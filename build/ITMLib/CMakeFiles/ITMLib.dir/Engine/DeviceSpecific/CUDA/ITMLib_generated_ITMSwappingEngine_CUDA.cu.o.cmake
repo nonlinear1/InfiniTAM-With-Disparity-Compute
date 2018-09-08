@@ -77,7 +77,7 @@ set(CUDA_NVCC_FLAGS_DEBUG  ; )
 set(CUDA_NVCC_FLAGS_MINSIZEREL  ; )
 set(CUDA_NVCC_FLAGS_RELWITHDEBINFO  ; )
 set(nvcc_flags -m64;--std;c++11) # list
-set(CUDA_NVCC_INCLUDE_ARGS "-I/usr/local/cuda/include;-I/home/w/Desktop/InfiniTAM;-I/home/w/Desktop/InfiniTAM/Main;-I/usr/include/eigen3;-I/usr/local/include;-I/usr/local/include/opencv;-I/usr/local/cuda/include") # list (needs to be in quotes to handle spaces properly).
+set(CUDA_NVCC_INCLUDE_ARGS "-I/usr/local/cuda/include;-I/home/w/Desktop/InfiniTAM;-I/home/w/Desktop/InfiniTAM/Main;-I/usr/local/include/eigen3;-I/usr/local/include;-I/usr/local/include/opencv;-I/usr/local/cuda/include") # list (needs to be in quotes to handle spaces properly).
 set(format_flag "-c") # string
 set(cuda_language_flag ) # list
 

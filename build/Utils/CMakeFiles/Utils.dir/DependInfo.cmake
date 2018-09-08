@@ -18,7 +18,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../"
   "../Main"
-  "/usr/include/eigen3"
+  "/usr/local/include/eigen3"
   "/usr/local/include"
   "/usr/local/include/opencv"
   "/usr/local/cuda/include"
