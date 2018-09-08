@@ -342,6 +342,7 @@ ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMColo
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMColorTracker_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/math-vector.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMColorTracker_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/mathcalls.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMColorTracker_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/mathdef.h
+ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMColorTracker_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/mathinline.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMColorTracker_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/nan.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMColorTracker_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/posix1_lim.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMColorTracker_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/posix2_lim.h
@@ -349,18 +350,26 @@ ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMColo
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMColorTracker_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMColorTracker_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/sched.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMColorTracker_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/select.h
+ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMColorTracker_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/select2.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMColorTracker_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/setjmp.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMColorTracker_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/sigset.h
+ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMColorTracker_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/stdio.h
+ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMColorTracker_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/stdio2.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMColorTracker_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
+ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMColorTracker_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMColorTracker_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/stdlib-float.h
+ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMColorTracker_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/stdlib.h
+ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMColorTracker_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/string3.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMColorTracker_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/sys_errlist.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMColorTracker_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/time.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMColorTracker_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/timex.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMColorTracker_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/types.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMColorTracker_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/typesizes.h
+ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMColorTracker_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/unistd.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMColorTracker_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/waitflags.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMColorTracker_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/waitstatus.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMColorTracker_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/wchar.h
+ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMColorTracker_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/wchar2.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMColorTracker_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/wordsize.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMColorTracker_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/xopen_lim.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMColorTracker_CUDA.cu.o: /usr/include/x86_64-linux-gnu/c++/5/bits/atomic_word.h
@@ -497,7 +506,7 @@ ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMColo
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMColorTracker_CUDA.cu.o: ../ITMLib/Engine/DeviceSpecific/CUDA/ITMColorTracker_CUDA.cu
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/w/Desktop/InfiniTAM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building NVCC (Device) object ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMColorTracker_CUDA.cu.o"
 	cd /home/w/Desktop/InfiniTAM/build/ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA && /usr/bin/cmake -E make_directory /home/w/Desktop/InfiniTAM/build/ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/.
-	cd /home/w/Desktop/InfiniTAM/build/ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA && /usr/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING= -D generated_file:STRING=/home/w/Desktop/InfiniTAM/build/ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/./ITMLib_generated_ITMColorTracker_CUDA.cu.o -D generated_cubin_file:STRING=/home/w/Desktop/InfiniTAM/build/ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/./ITMLib_generated_ITMColorTracker_CUDA.cu.o.cubin.txt -P /home/w/Desktop/InfiniTAM/build/ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMColorTracker_CUDA.cu.o.cmake
+	cd /home/w/Desktop/InfiniTAM/build/ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA && /usr/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Release -D generated_file:STRING=/home/w/Desktop/InfiniTAM/build/ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/./ITMLib_generated_ITMColorTracker_CUDA.cu.o -D generated_cubin_file:STRING=/home/w/Desktop/InfiniTAM/build/ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/./ITMLib_generated_ITMColorTracker_CUDA.cu.o.cubin.txt -P /home/w/Desktop/InfiniTAM/build/ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMColorTracker_CUDA.cu.o.cmake
 
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMDepthTracker_CUDA.cu.o: ../ITMLib/Engine/DeviceAgnostic/ITMDepthTracker.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMDepthTracker_CUDA.cu.o: ../ITMLib/Engine/DeviceAgnostic/ITMPixelUtils.h
@@ -788,6 +797,7 @@ ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMDept
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMDepthTracker_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/math-vector.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMDepthTracker_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/mathcalls.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMDepthTracker_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/mathdef.h
+ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMDepthTracker_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/mathinline.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMDepthTracker_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/nan.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMDepthTracker_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/posix1_lim.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMDepthTracker_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/posix2_lim.h
@@ -795,18 +805,26 @@ ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMDept
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMDepthTracker_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMDepthTracker_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/sched.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMDepthTracker_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/select.h
+ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMDepthTracker_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/select2.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMDepthTracker_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/setjmp.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMDepthTracker_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/sigset.h
+ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMDepthTracker_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/stdio.h
+ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMDepthTracker_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/stdio2.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMDepthTracker_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
+ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMDepthTracker_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMDepthTracker_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/stdlib-float.h
+ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMDepthTracker_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/stdlib.h
+ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMDepthTracker_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/string3.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMDepthTracker_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/sys_errlist.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMDepthTracker_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/time.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMDepthTracker_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/timex.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMDepthTracker_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/types.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMDepthTracker_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/typesizes.h
+ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMDepthTracker_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/unistd.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMDepthTracker_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/waitflags.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMDepthTracker_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/waitstatus.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMDepthTracker_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/wchar.h
+ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMDepthTracker_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/wchar2.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMDepthTracker_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/wordsize.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMDepthTracker_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/xopen_lim.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMDepthTracker_CUDA.cu.o: /usr/include/x86_64-linux-gnu/c++/5/bits/atomic_word.h
@@ -945,7 +963,7 @@ ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMDept
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMDepthTracker_CUDA.cu.o: ../ITMLib/Engine/DeviceSpecific/CUDA/ITMDepthTracker_CUDA.cu
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/w/Desktop/InfiniTAM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building NVCC (Device) object ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMDepthTracker_CUDA.cu.o"
 	cd /home/w/Desktop/InfiniTAM/build/ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA && /usr/bin/cmake -E make_directory /home/w/Desktop/InfiniTAM/build/ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/.
-	cd /home/w/Desktop/InfiniTAM/build/ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA && /usr/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING= -D generated_file:STRING=/home/w/Desktop/InfiniTAM/build/ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/./ITMLib_generated_ITMDepthTracker_CUDA.cu.o -D generated_cubin_file:STRING=/home/w/Desktop/InfiniTAM/build/ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/./ITMLib_generated_ITMDepthTracker_CUDA.cu.o.cubin.txt -P /home/w/Desktop/InfiniTAM/build/ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMDepthTracker_CUDA.cu.o.cmake
+	cd /home/w/Desktop/InfiniTAM/build/ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA && /usr/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Release -D generated_file:STRING=/home/w/Desktop/InfiniTAM/build/ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/./ITMLib_generated_ITMDepthTracker_CUDA.cu.o -D generated_cubin_file:STRING=/home/w/Desktop/InfiniTAM/build/ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/./ITMLib_generated_ITMDepthTracker_CUDA.cu.o.cubin.txt -P /home/w/Desktop/InfiniTAM/build/ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMDepthTracker_CUDA.cu.o.cmake
 
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMWeightedICPTracker_CUDA.cu.o: ../ITMLib/Engine/DeviceAgnostic/ITMPixelUtils.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMWeightedICPTracker_CUDA.cu.o: ../ITMLib/Engine/DeviceAgnostic/ITMWeightedICPTracker.h
@@ -1233,6 +1251,7 @@ ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMWeig
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMWeightedICPTracker_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/math-vector.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMWeightedICPTracker_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/mathcalls.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMWeightedICPTracker_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/mathdef.h
+ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMWeightedICPTracker_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/mathinline.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMWeightedICPTracker_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/nan.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMWeightedICPTracker_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/posix1_lim.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMWeightedICPTracker_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/posix2_lim.h
@@ -1240,18 +1259,26 @@ ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMWeig
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMWeightedICPTracker_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMWeightedICPTracker_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/sched.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMWeightedICPTracker_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/select.h
+ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMWeightedICPTracker_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/select2.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMWeightedICPTracker_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/setjmp.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMWeightedICPTracker_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/sigset.h
+ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMWeightedICPTracker_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/stdio.h
+ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMWeightedICPTracker_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/stdio2.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMWeightedICPTracker_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
+ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMWeightedICPTracker_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMWeightedICPTracker_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/stdlib-float.h
+ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMWeightedICPTracker_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/stdlib.h
+ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMWeightedICPTracker_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/string3.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMWeightedICPTracker_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/sys_errlist.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMWeightedICPTracker_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/time.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMWeightedICPTracker_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/timex.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMWeightedICPTracker_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/types.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMWeightedICPTracker_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/typesizes.h
+ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMWeightedICPTracker_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/unistd.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMWeightedICPTracker_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/waitflags.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMWeightedICPTracker_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/waitstatus.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMWeightedICPTracker_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/wchar.h
+ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMWeightedICPTracker_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/wchar2.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMWeightedICPTracker_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/wordsize.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMWeightedICPTracker_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/xopen_lim.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMWeightedICPTracker_CUDA.cu.o: /usr/include/x86_64-linux-gnu/c++/5/bits/atomic_word.h
@@ -1388,7 +1415,7 @@ ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMWeig
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMWeightedICPTracker_CUDA.cu.o: ../ITMLib/Engine/DeviceSpecific/CUDA/ITMWeightedICPTracker_CUDA.cu
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/w/Desktop/InfiniTAM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building NVCC (Device) object ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMWeightedICPTracker_CUDA.cu.o"
 	cd /home/w/Desktop/InfiniTAM/build/ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA && /usr/bin/cmake -E make_directory /home/w/Desktop/InfiniTAM/build/ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/.
-	cd /home/w/Desktop/InfiniTAM/build/ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA && /usr/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING= -D generated_file:STRING=/home/w/Desktop/InfiniTAM/build/ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/./ITMLib_generated_ITMWeightedICPTracker_CUDA.cu.o -D generated_cubin_file:STRING=/home/w/Desktop/InfiniTAM/build/ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/./ITMLib_generated_ITMWeightedICPTracker_CUDA.cu.o.cubin.txt -P /home/w/Desktop/InfiniTAM/build/ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMWeightedICPTracker_CUDA.cu.o.cmake
+	cd /home/w/Desktop/InfiniTAM/build/ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA && /usr/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Release -D generated_file:STRING=/home/w/Desktop/InfiniTAM/build/ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/./ITMLib_generated_ITMWeightedICPTracker_CUDA.cu.o -D generated_cubin_file:STRING=/home/w/Desktop/InfiniTAM/build/ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/./ITMLib_generated_ITMWeightedICPTracker_CUDA.cu.o.cubin.txt -P /home/w/Desktop/InfiniTAM/build/ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMWeightedICPTracker_CUDA.cu.o.cmake
 
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMLowLevelEngine_CUDA.cu.o: ../ITMLib/Engine/DeviceAgnostic/ITMLowLevelEngine.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMLowLevelEngine_CUDA.cu.o: ../ITMLib/Engine/DeviceSpecific/CUDA/ITMLowLevelEngine_CUDA.cu
@@ -1513,16 +1540,23 @@ ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMLowL
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMLowLevelEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/math-vector.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMLowLevelEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/mathcalls.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMLowLevelEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/mathdef.h
+ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMLowLevelEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/mathinline.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMLowLevelEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/nan.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMLowLevelEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/posix1_lim.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMLowLevelEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/posix2_lim.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMLowLevelEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMLowLevelEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/sched.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMLowLevelEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/select.h
+ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMLowLevelEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/select2.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMLowLevelEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/setjmp.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMLowLevelEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/sigset.h
+ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMLowLevelEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/stdio.h
+ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMLowLevelEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/stdio2.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMLowLevelEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
+ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMLowLevelEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMLowLevelEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/stdlib-float.h
+ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMLowLevelEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/stdlib.h
+ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMLowLevelEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/string3.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMLowLevelEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/sys_errlist.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMLowLevelEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/time.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMLowLevelEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/timex.h
@@ -1531,6 +1565,7 @@ ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMLowL
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMLowLevelEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/waitflags.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMLowLevelEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/waitstatus.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMLowLevelEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/wchar.h
+ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMLowLevelEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/wchar2.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMLowLevelEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/wordsize.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMLowLevelEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/xopen_lim.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMLowLevelEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/c++/5/bits/atomic_word.h
@@ -1611,7 +1646,7 @@ ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMLowL
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMLowLevelEngine_CUDA.cu.o: ../ITMLib/Engine/DeviceSpecific/CUDA/ITMLowLevelEngine_CUDA.cu
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/w/Desktop/InfiniTAM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building NVCC (Device) object ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMLowLevelEngine_CUDA.cu.o"
 	cd /home/w/Desktop/InfiniTAM/build/ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA && /usr/bin/cmake -E make_directory /home/w/Desktop/InfiniTAM/build/ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/.
-	cd /home/w/Desktop/InfiniTAM/build/ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA && /usr/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING= -D generated_file:STRING=/home/w/Desktop/InfiniTAM/build/ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/./ITMLib_generated_ITMLowLevelEngine_CUDA.cu.o -D generated_cubin_file:STRING=/home/w/Desktop/InfiniTAM/build/ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/./ITMLib_generated_ITMLowLevelEngine_CUDA.cu.o.cubin.txt -P /home/w/Desktop/InfiniTAM/build/ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMLowLevelEngine_CUDA.cu.o.cmake
+	cd /home/w/Desktop/InfiniTAM/build/ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA && /usr/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Release -D generated_file:STRING=/home/w/Desktop/InfiniTAM/build/ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/./ITMLib_generated_ITMLowLevelEngine_CUDA.cu.o -D generated_cubin_file:STRING=/home/w/Desktop/InfiniTAM/build/ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/./ITMLib_generated_ITMLowLevelEngine_CUDA.cu.o.cubin.txt -P /home/w/Desktop/InfiniTAM/build/ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMLowLevelEngine_CUDA.cu.o.cmake
 
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMRenTracker_CUDA.cu.o: ../ITMLib/Engine/DeviceAgnostic/ITMPixelUtils.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMRenTracker_CUDA.cu.o: ../ITMLib/Engine/DeviceAgnostic/ITMRenTracker.h
@@ -1902,6 +1937,7 @@ ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMRenT
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMRenTracker_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/math-vector.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMRenTracker_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/mathcalls.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMRenTracker_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/mathdef.h
+ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMRenTracker_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/mathinline.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMRenTracker_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/nan.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMRenTracker_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/posix1_lim.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMRenTracker_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/posix2_lim.h
@@ -1909,18 +1945,26 @@ ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMRenT
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMRenTracker_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMRenTracker_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/sched.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMRenTracker_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/select.h
+ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMRenTracker_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/select2.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMRenTracker_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/setjmp.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMRenTracker_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/sigset.h
+ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMRenTracker_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/stdio.h
+ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMRenTracker_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/stdio2.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMRenTracker_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
+ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMRenTracker_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMRenTracker_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/stdlib-float.h
+ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMRenTracker_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/stdlib.h
+ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMRenTracker_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/string3.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMRenTracker_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/sys_errlist.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMRenTracker_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/time.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMRenTracker_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/timex.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMRenTracker_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/types.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMRenTracker_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/typesizes.h
+ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMRenTracker_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/unistd.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMRenTracker_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/waitflags.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMRenTracker_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/waitstatus.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMRenTracker_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/wchar.h
+ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMRenTracker_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/wchar2.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMRenTracker_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/wordsize.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMRenTracker_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/xopen_lim.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMRenTracker_CUDA.cu.o: /usr/include/x86_64-linux-gnu/c++/5/bits/atomic_word.h
@@ -2057,7 +2101,7 @@ ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMRenT
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMRenTracker_CUDA.cu.o: ../ITMLib/Engine/DeviceSpecific/CUDA/ITMRenTracker_CUDA.cu
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/w/Desktop/InfiniTAM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building NVCC (Device) object ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMRenTracker_CUDA.cu.o"
 	cd /home/w/Desktop/InfiniTAM/build/ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA && /usr/bin/cmake -E make_directory /home/w/Desktop/InfiniTAM/build/ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/.
-	cd /home/w/Desktop/InfiniTAM/build/ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA && /usr/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING= -D generated_file:STRING=/home/w/Desktop/InfiniTAM/build/ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/./ITMLib_generated_ITMRenTracker_CUDA.cu.o -D generated_cubin_file:STRING=/home/w/Desktop/InfiniTAM/build/ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/./ITMLib_generated_ITMRenTracker_CUDA.cu.o.cubin.txt -P /home/w/Desktop/InfiniTAM/build/ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMRenTracker_CUDA.cu.o.cmake
+	cd /home/w/Desktop/InfiniTAM/build/ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA && /usr/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Release -D generated_file:STRING=/home/w/Desktop/InfiniTAM/build/ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/./ITMLib_generated_ITMRenTracker_CUDA.cu.o -D generated_cubin_file:STRING=/home/w/Desktop/InfiniTAM/build/ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/./ITMLib_generated_ITMRenTracker_CUDA.cu.o.cubin.txt -P /home/w/Desktop/InfiniTAM/build/ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMRenTracker_CUDA.cu.o.cmake
 
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMSceneReconstructionEngine_CUDA.cu.o: ../ITMLib/Engine/DeviceAgnostic/ITMPixelUtils.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMSceneReconstructionEngine_CUDA.cu.o: ../ITMLib/Engine/DeviceAgnostic/ITMRepresentationAccess.h
@@ -2426,6 +2470,7 @@ ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMScen
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMSceneReconstructionEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/math-vector.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMSceneReconstructionEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/mathcalls.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMSceneReconstructionEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/mathdef.h
+ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMSceneReconstructionEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/mathinline.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMSceneReconstructionEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/nan.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMSceneReconstructionEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/posix1_lim.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMSceneReconstructionEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/posix2_lim.h
@@ -2433,18 +2478,26 @@ ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMScen
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMSceneReconstructionEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMSceneReconstructionEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/sched.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMSceneReconstructionEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/select.h
+ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMSceneReconstructionEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/select2.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMSceneReconstructionEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/setjmp.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMSceneReconstructionEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/sigset.h
+ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMSceneReconstructionEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/stdio.h
+ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMSceneReconstructionEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/stdio2.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMSceneReconstructionEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
+ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMSceneReconstructionEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMSceneReconstructionEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/stdlib-float.h
+ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMSceneReconstructionEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/stdlib.h
+ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMSceneReconstructionEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/string3.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMSceneReconstructionEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/sys_errlist.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMSceneReconstructionEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/time.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMSceneReconstructionEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/timex.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMSceneReconstructionEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/types.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMSceneReconstructionEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/typesizes.h
+ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMSceneReconstructionEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/unistd.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMSceneReconstructionEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/waitflags.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMSceneReconstructionEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/waitstatus.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMSceneReconstructionEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/wchar.h
+ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMSceneReconstructionEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/wchar2.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMSceneReconstructionEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/wordsize.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMSceneReconstructionEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/xopen_lim.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMSceneReconstructionEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/c++/5/bits/atomic_word.h
@@ -2583,7 +2636,7 @@ ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMScen
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMSceneReconstructionEngine_CUDA.cu.o: ../ITMLib/Engine/DeviceSpecific/CUDA/ITMSceneReconstructionEngine_CUDA.cu
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/w/Desktop/InfiniTAM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building NVCC (Device) object ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMSceneReconstructionEngine_CUDA.cu.o"
 	cd /home/w/Desktop/InfiniTAM/build/ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA && /usr/bin/cmake -E make_directory /home/w/Desktop/InfiniTAM/build/ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/.
-	cd /home/w/Desktop/InfiniTAM/build/ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA && /usr/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING= -D generated_file:STRING=/home/w/Desktop/InfiniTAM/build/ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/./ITMLib_generated_ITMSceneReconstructionEngine_CUDA.cu.o -D generated_cubin_file:STRING=/home/w/Desktop/InfiniTAM/build/ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/./ITMLib_generated_ITMSceneReconstructionEngine_CUDA.cu.o.cubin.txt -P /home/w/Desktop/InfiniTAM/build/ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMSceneReconstructionEngine_CUDA.cu.o.cmake
+	cd /home/w/Desktop/InfiniTAM/build/ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA && /usr/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Release -D generated_file:STRING=/home/w/Desktop/InfiniTAM/build/ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/./ITMLib_generated_ITMSceneReconstructionEngine_CUDA.cu.o -D generated_cubin_file:STRING=/home/w/Desktop/InfiniTAM/build/ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/./ITMLib_generated_ITMSceneReconstructionEngine_CUDA.cu.o.cubin.txt -P /home/w/Desktop/InfiniTAM/build/ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMSceneReconstructionEngine_CUDA.cu.o.cmake
 
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMSwappingEngine_CUDA.cu.o: ../ITMLib/Engine/DeviceAgnostic/ITMSwappingEngine.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMSwappingEngine_CUDA.cu.o: ../ITMLib/Engine/DeviceSpecific/CUDA/ITMCUDAUtils.h
@@ -2864,6 +2917,7 @@ ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMSwap
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMSwappingEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/math-vector.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMSwappingEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/mathcalls.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMSwappingEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/mathdef.h
+ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMSwappingEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/mathinline.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMSwappingEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/nan.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMSwappingEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/posix1_lim.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMSwappingEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/posix2_lim.h
@@ -2871,18 +2925,26 @@ ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMSwap
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMSwappingEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMSwappingEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/sched.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMSwappingEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/select.h
+ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMSwappingEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/select2.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMSwappingEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/setjmp.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMSwappingEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/sigset.h
+ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMSwappingEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/stdio.h
+ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMSwappingEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/stdio2.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMSwappingEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
+ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMSwappingEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMSwappingEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/stdlib-float.h
+ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMSwappingEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/stdlib.h
+ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMSwappingEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/string3.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMSwappingEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/sys_errlist.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMSwappingEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/time.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMSwappingEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/timex.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMSwappingEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/types.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMSwappingEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/typesizes.h
+ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMSwappingEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/unistd.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMSwappingEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/waitflags.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMSwappingEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/waitstatus.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMSwappingEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/wchar.h
+ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMSwappingEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/wchar2.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMSwappingEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/wordsize.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMSwappingEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/xopen_lim.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMSwappingEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/c++/5/bits/atomic_word.h
@@ -3019,7 +3081,7 @@ ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMSwap
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMSwappingEngine_CUDA.cu.o: ../ITMLib/Engine/DeviceSpecific/CUDA/ITMSwappingEngine_CUDA.cu
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/w/Desktop/InfiniTAM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building NVCC (Device) object ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMSwappingEngine_CUDA.cu.o"
 	cd /home/w/Desktop/InfiniTAM/build/ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA && /usr/bin/cmake -E make_directory /home/w/Desktop/InfiniTAM/build/ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/.
-	cd /home/w/Desktop/InfiniTAM/build/ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA && /usr/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING= -D generated_file:STRING=/home/w/Desktop/InfiniTAM/build/ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/./ITMLib_generated_ITMSwappingEngine_CUDA.cu.o -D generated_cubin_file:STRING=/home/w/Desktop/InfiniTAM/build/ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/./ITMLib_generated_ITMSwappingEngine_CUDA.cu.o.cubin.txt -P /home/w/Desktop/InfiniTAM/build/ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMSwappingEngine_CUDA.cu.o.cmake
+	cd /home/w/Desktop/InfiniTAM/build/ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA && /usr/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Release -D generated_file:STRING=/home/w/Desktop/InfiniTAM/build/ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/./ITMLib_generated_ITMSwappingEngine_CUDA.cu.o -D generated_cubin_file:STRING=/home/w/Desktop/InfiniTAM/build/ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/./ITMLib_generated_ITMSwappingEngine_CUDA.cu.o.cubin.txt -P /home/w/Desktop/InfiniTAM/build/ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMSwappingEngine_CUDA.cu.o.cmake
 
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMViewBuilder_CUDA.cu.o: ../ITMLib/Engine/DeviceAgnostic/ITMViewBuilder.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMViewBuilder_CUDA.cu.o: ../ITMLib/Engine/DeviceSpecific/CUDA/ITMViewBuilder_CUDA.cu
@@ -3322,6 +3384,7 @@ ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMView
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMViewBuilder_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/math-vector.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMViewBuilder_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/mathcalls.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMViewBuilder_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/mathdef.h
+ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMViewBuilder_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/mathinline.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMViewBuilder_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/nan.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMViewBuilder_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/posix1_lim.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMViewBuilder_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/posix2_lim.h
@@ -3329,18 +3392,26 @@ ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMView
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMViewBuilder_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMViewBuilder_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/sched.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMViewBuilder_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/select.h
+ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMViewBuilder_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/select2.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMViewBuilder_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/setjmp.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMViewBuilder_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/sigset.h
+ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMViewBuilder_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/stdio.h
+ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMViewBuilder_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/stdio2.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMViewBuilder_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
+ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMViewBuilder_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMViewBuilder_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/stdlib-float.h
+ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMViewBuilder_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/stdlib.h
+ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMViewBuilder_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/string3.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMViewBuilder_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/sys_errlist.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMViewBuilder_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/time.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMViewBuilder_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/timex.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMViewBuilder_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/types.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMViewBuilder_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/typesizes.h
+ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMViewBuilder_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/unistd.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMViewBuilder_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/waitflags.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMViewBuilder_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/waitstatus.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMViewBuilder_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/wchar.h
+ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMViewBuilder_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/wchar2.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMViewBuilder_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/wordsize.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMViewBuilder_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/xopen_lim.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMViewBuilder_CUDA.cu.o: /usr/include/x86_64-linux-gnu/c++/5/bits/atomic_word.h
@@ -3479,7 +3550,7 @@ ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMView
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMViewBuilder_CUDA.cu.o: ../ITMLib/Engine/DeviceSpecific/CUDA/ITMViewBuilder_CUDA.cu
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/w/Desktop/InfiniTAM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building NVCC (Device) object ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMViewBuilder_CUDA.cu.o"
 	cd /home/w/Desktop/InfiniTAM/build/ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA && /usr/bin/cmake -E make_directory /home/w/Desktop/InfiniTAM/build/ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/.
-	cd /home/w/Desktop/InfiniTAM/build/ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA && /usr/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING= -D generated_file:STRING=/home/w/Desktop/InfiniTAM/build/ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/./ITMLib_generated_ITMViewBuilder_CUDA.cu.o -D generated_cubin_file:STRING=/home/w/Desktop/InfiniTAM/build/ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/./ITMLib_generated_ITMViewBuilder_CUDA.cu.o.cubin.txt -P /home/w/Desktop/InfiniTAM/build/ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMViewBuilder_CUDA.cu.o.cmake
+	cd /home/w/Desktop/InfiniTAM/build/ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA && /usr/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Release -D generated_file:STRING=/home/w/Desktop/InfiniTAM/build/ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/./ITMLib_generated_ITMViewBuilder_CUDA.cu.o -D generated_cubin_file:STRING=/home/w/Desktop/InfiniTAM/build/ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/./ITMLib_generated_ITMViewBuilder_CUDA.cu.o.cubin.txt -P /home/w/Desktop/InfiniTAM/build/ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMViewBuilder_CUDA.cu.o.cmake
 
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMVisualisationEngine_CUDA.cu.o: ../ITMLib/Engine/DeviceAgnostic/ITMPixelUtils.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMVisualisationEngine_CUDA.cu.o: ../ITMLib/Engine/DeviceAgnostic/ITMRepresentationAccess.h
@@ -3787,6 +3858,7 @@ ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMVisu
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMVisualisationEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/math-vector.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMVisualisationEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/mathcalls.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMVisualisationEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/mathdef.h
+ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMVisualisationEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/mathinline.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMVisualisationEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/nan.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMVisualisationEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/posix1_lim.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMVisualisationEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/posix2_lim.h
@@ -3794,18 +3866,26 @@ ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMVisu
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMVisualisationEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMVisualisationEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/sched.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMVisualisationEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/select.h
+ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMVisualisationEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/select2.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMVisualisationEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/setjmp.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMVisualisationEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/sigset.h
+ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMVisualisationEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/stdio.h
+ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMVisualisationEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/stdio2.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMVisualisationEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
+ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMVisualisationEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMVisualisationEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/stdlib-float.h
+ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMVisualisationEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/stdlib.h
+ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMVisualisationEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/string3.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMVisualisationEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/sys_errlist.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMVisualisationEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/time.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMVisualisationEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/timex.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMVisualisationEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/types.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMVisualisationEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/typesizes.h
+ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMVisualisationEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/unistd.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMVisualisationEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/waitflags.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMVisualisationEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/waitstatus.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMVisualisationEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/wchar.h
+ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMVisualisationEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/wchar2.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMVisualisationEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/wordsize.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMVisualisationEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/xopen_lim.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMVisualisationEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/c++/5/bits/atomic_word.h
@@ -3944,7 +4024,7 @@ ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMVisu
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMVisualisationEngine_CUDA.cu.o: ../ITMLib/Engine/DeviceSpecific/CUDA/ITMVisualisationEngine_CUDA.cu
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/w/Desktop/InfiniTAM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building NVCC (Device) object ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMVisualisationEngine_CUDA.cu.o"
 	cd /home/w/Desktop/InfiniTAM/build/ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA && /usr/bin/cmake -E make_directory /home/w/Desktop/InfiniTAM/build/ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/.
-	cd /home/w/Desktop/InfiniTAM/build/ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA && /usr/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING= -D generated_file:STRING=/home/w/Desktop/InfiniTAM/build/ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/./ITMLib_generated_ITMVisualisationEngine_CUDA.cu.o -D generated_cubin_file:STRING=/home/w/Desktop/InfiniTAM/build/ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/./ITMLib_generated_ITMVisualisationEngine_CUDA.cu.o.cubin.txt -P /home/w/Desktop/InfiniTAM/build/ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMVisualisationEngine_CUDA.cu.o.cmake
+	cd /home/w/Desktop/InfiniTAM/build/ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA && /usr/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Release -D generated_file:STRING=/home/w/Desktop/InfiniTAM/build/ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/./ITMLib_generated_ITMVisualisationEngine_CUDA.cu.o -D generated_cubin_file:STRING=/home/w/Desktop/InfiniTAM/build/ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/./ITMLib_generated_ITMVisualisationEngine_CUDA.cu.o.cubin.txt -P /home/w/Desktop/InfiniTAM/build/ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMVisualisationEngine_CUDA.cu.o.cmake
 
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMMeshingEngine_CUDA.cu.o: ../ITMLib/Engine/DeviceAgnostic/ITMMeshingEngine.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMMeshingEngine_CUDA.cu.o: ../ITMLib/Engine/DeviceAgnostic/ITMPixelUtils.h
@@ -4086,16 +4166,23 @@ ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMMesh
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMMeshingEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/math-vector.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMMeshingEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/mathcalls.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMMeshingEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/mathdef.h
+ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMMeshingEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/mathinline.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMMeshingEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/nan.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMMeshingEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/posix1_lim.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMMeshingEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/posix2_lim.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMMeshingEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMMeshingEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/sched.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMMeshingEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/select.h
+ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMMeshingEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/select2.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMMeshingEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/setjmp.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMMeshingEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/sigset.h
+ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMMeshingEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/stdio.h
+ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMMeshingEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/stdio2.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMMeshingEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
+ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMMeshingEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMMeshingEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/stdlib-float.h
+ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMMeshingEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/stdlib.h
+ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMMeshingEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/string3.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMMeshingEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/sys_errlist.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMMeshingEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/time.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMMeshingEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/timex.h
@@ -4104,6 +4191,7 @@ ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMMesh
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMMeshingEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/waitflags.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMMeshingEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/waitstatus.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMMeshingEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/wchar.h
+ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMMeshingEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/wchar2.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMMeshingEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/wordsize.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMMeshingEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/bits/xopen_lim.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMMeshingEngine_CUDA.cu.o: /usr/include/x86_64-linux-gnu/c++/5/bits/atomic_word.h
@@ -4186,7 +4274,7 @@ ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMMesh
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMMeshingEngine_CUDA.cu.o: ../ITMLib/Engine/DeviceSpecific/CUDA/ITMMeshingEngine_CUDA.cu
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/w/Desktop/InfiniTAM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building NVCC (Device) object ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMMeshingEngine_CUDA.cu.o"
 	cd /home/w/Desktop/InfiniTAM/build/ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA && /usr/bin/cmake -E make_directory /home/w/Desktop/InfiniTAM/build/ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/.
-	cd /home/w/Desktop/InfiniTAM/build/ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA && /usr/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING= -D generated_file:STRING=/home/w/Desktop/InfiniTAM/build/ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/./ITMLib_generated_ITMMeshingEngine_CUDA.cu.o -D generated_cubin_file:STRING=/home/w/Desktop/InfiniTAM/build/ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/./ITMLib_generated_ITMMeshingEngine_CUDA.cu.o.cubin.txt -P /home/w/Desktop/InfiniTAM/build/ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMMeshingEngine_CUDA.cu.o.cmake
+	cd /home/w/Desktop/InfiniTAM/build/ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA && /usr/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Release -D generated_file:STRING=/home/w/Desktop/InfiniTAM/build/ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/./ITMLib_generated_ITMMeshingEngine_CUDA.cu.o -D generated_cubin_file:STRING=/home/w/Desktop/InfiniTAM/build/ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/./ITMLib_generated_ITMMeshingEngine_CUDA.cu.o.cubin.txt -P /home/w/Desktop/InfiniTAM/build/ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMMeshingEngine_CUDA.cu.o.cmake
 
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CPU/ITMColorTracker_CPU.cpp.o: ITMLib/CMakeFiles/ITMLib.dir/flags.make
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CPU/ITMColorTracker_CPU.cpp.o: ../ITMLib/Engine/DeviceSpecific/CPU/ITMColorTracker_CPU.cpp

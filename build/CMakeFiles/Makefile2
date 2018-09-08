@@ -63,8 +63,8 @@ CMAKE_BINARY_DIR = /home/w/Desktop/InfiniTAM/build
 # Target rules for target CMakeFiles/InfiniTAM.dir
 
 # All Build rule for target.
-CMakeFiles/InfiniTAM.dir/all: Utils/CMakeFiles/Utils.dir/all
 CMakeFiles/InfiniTAM.dir/all: ORUtils/CMakeFiles/ORUtils.dir/all
+CMakeFiles/InfiniTAM.dir/all: Utils/CMakeFiles/Utils.dir/all
 CMakeFiles/InfiniTAM.dir/all: Engine/CMakeFiles/Engine.dir/all
 CMakeFiles/InfiniTAM.dir/all: ITMLib/CMakeFiles/ITMLib.dir/all
 	$(MAKE) -f CMakeFiles/InfiniTAM.dir/build.make CMakeFiles/InfiniTAM.dir/depend
