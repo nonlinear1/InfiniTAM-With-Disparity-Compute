@@ -8,9 +8,6 @@
 
 #include <stdio.h>
 
-float focal_length_px = 0.0;
-float baseline_m = 0.0;
-
 
 using namespace InfiniTAM::Engine;
 
@@ -108,8 +105,8 @@ void GetKittiCalib(const char *fileName, ITMRGBDCalib & calib)
 
 
     //Stereo camera calibration.  Camera Focal and Baseling
-    focal_length_px = left_gray_proj(0, 0);
-    baseline_m = 0.537150654273f;
+    computeDisparity->stereoImage.focalLength = left_gray_proj(0, 0);
+    computeDisparity->stereoImage.baseLine = 0.537150654273f;
 
     calib = *CreateItmCalib(left_gray_proj/*, frame_size*/);
 }

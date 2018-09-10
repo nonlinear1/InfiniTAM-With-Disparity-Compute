@@ -21,8 +21,10 @@ public:
     struct StereoImageParameters
     {
         unsigned char *I1, *I2;  // I1, I2 are the input image.
-        float         *D1, *D2;  // D1, D2 are the disparity map.
-        int width, height, step;
+        float         *D1, *D2;  // D1, D2 are the disparity map. color: close-white-max  far-black-min(0) 
+                                 //                               color: colse-green      far-red
+        int width, height, step;    
+        double focalLength, baseLine;  //  stereo focal length, baseline.
 
         StereoImageParameters() // Default constructor.
         {

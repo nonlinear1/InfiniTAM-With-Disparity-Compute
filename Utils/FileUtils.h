@@ -5,11 +5,8 @@
 #include <stdio.h>
 #include "ImageIOpfm.h"
 #include "../ITMLib/Utils/ITMLibDefines.h"
-#include "../Engine/ImageSourceEngine.h"
+#include "../Engine/ImageSourceEngine.h" 
 #include "InfiniTAM.h"
-
-extern float focal_length_px;
-extern float baseline_m;
 
 void SaveImageToFile(const ITMUChar4Image* image, const char* fileName, bool flipVertical = false);
 void SaveImageToFile(const ITMShortImage* image, const char* fileName);

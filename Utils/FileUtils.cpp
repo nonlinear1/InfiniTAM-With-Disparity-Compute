@@ -445,7 +445,7 @@ bool ReadImageFromFile(ITMUChar4Image* leftImage, const char* leftFileName,
 
 	return true;
 }
-
+//  short image is depth image , not Disparity !!!!!!!!!!
 bool ReadImageFromFile(ITMShortImage *image, const char *fileName)// for depth file to read
 {
     int xsize, ysize;
@@ -507,7 +507,7 @@ bool ReadImageFromFile(ITMShortImage *image, const char *fileName)// for depth f
         {
             fclose(f);
             ReadFilePFM(pfm_data, fileName);////////////  Read PFM disparaty.
-            cvMatToShort(pfm_data, data);
+            cvMatToShort(pfm_data, data);   ////////////  Change to depth image to *data
         }
         else {
                 if (!pnm_readdata_ascii(f, xsize, ysize, type, data)) {
@@ -527,8 +527,8 @@ bool ReadImageFromFile(ITMShortImage *image, const char *fileName)// for depth f
         xsize = computeDisparity->stereoImage.width;
         ysize = computeDisparity->stereoImage.height;
         data = new short[xsize*ysize];
-
-        floatToShort(computeDisparity->stereoImage.D1, data);
+        // change computed disparity to depth image to *data
+        floatToShort(computeDisparity->stereoImage.D1, data);  
     }
 
     Vector2i newSize(xsize, ysize);
@@ -545,14 +545,15 @@ bool ReadImageFromFile(ITMShortImage *image, const char *fileName)// for depth f
     delete[] data;
     return true;
 }
-
-void cvMatToShort(cv::Mat pfm_data, short *data) //data in .pfm is disparity
+//data in .pfm is disparity. exchange to short* data (depth image)
+void cvMatToShort(cv::Mat pfm_data, short *data) 
 {
     float metersToMillimeters = 1000.0f;
     for(int i=0; i<pfm_data.rows; i++) {
         for(int j=0; j<pfm_data.cols; j++) {
             float disp = pfm_data.at<float>(i,j);
-            int32_t depth_mm = static_cast<int32_t>( metersToMillimeters * focal_length_px * baseline_m / disp );
+            int32_t depth_mm = static_cast<int32_t>( metersToMillimeters * computeDisparity->stereoImage.focalLength * 
+                                                     computeDisparity->stereoImage.baseLine / disp );
             if (abs(disp) < 1e-5) {
                 depth_mm = 0;
             }
@@ -565,19 +566,25 @@ void cvMatToShort(cv::Mat pfm_data, short *data) //data in .pfm is disparity
     }
 }
 
-//exchange computed disparity to short* data
+//exchange computed disparity to short* data (depth image)
 void floatToShort(float *disparity, short *data)
 {
+    float metersToMillimeters = 1000.0f;
     int cols = computeDisparity->stereoImage.width;
     int rows = computeDisparity->stereoImage.height;
     float rawDisparity;
     for(int i=0; i<rows; i++) {
         for(int j=0; j<cols; j++) {
-            rawDisparity = disparity[i*cols + j] * 256.0;
-            if(rawDisparity<0) rawDisparity = 0;
-            if(rawDisparity>65535.0) rawDisparity = 65535.0;
-
-            *data = static_cast<int16_t>(rawDisparity);
+            rawDisparity = disparity[i*cols + j];
+            int32_t depth_mm = static_cast<int32_t>( metersToMillimeters * computeDisparity->stereoImage.focalLength * 
+                                                     computeDisparity->stereoImage.baseLine / rawDisparity );
+            if (abs(rawDisparity) < 1e-5) {
+                depth_mm = 0;
+            }
+            if (depth_mm > 30000 || depth_mm < 500) {
+                depth_mm = 0;
+            }
+            *data = static_cast<int16_t>(depth_mm);
             data ++;
         }
     }

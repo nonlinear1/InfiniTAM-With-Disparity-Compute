@@ -12,6 +12,13 @@ bool g_WaitComputeDisparity = false;
 std::thread *computeDisparityThread;
 
 
+//************************************************************//
+//  File disparity  color: close-white-max  far-black-min(0)  //
+//  Infinitam depth color: colse-green      far-red           //
+//  Feed            image: RGB or Gray      depth:depth image //
+//************************************************************//
+
+
 int main(int argc, char** argv)
 {
     glutInit(&argc, argv);

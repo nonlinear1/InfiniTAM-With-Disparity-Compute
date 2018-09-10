@@ -115,7 +115,7 @@ ITMLibSettings::ITMLibSettings()
     ITMLib::Engine::ITMGroundTruthTracker::groundTruthMode = KITTI;
 
 	// When this tracker is used, these parameters get set on engine creation.
-    datasetPath    = "/home/w/Desktop/DATA/Kitti/06-For-InfiniTAM";
+    datasetPath    = "/home/w/Desktop/DATA/Kitti/00-For-InfiniTAM";
     calibPath      = datasetPath + "/calib.txt";
     leftImagePath  = datasetPath + "/image_2/%06i.png";
     rightImagePath = datasetPath + "/image_3/%06i.png";

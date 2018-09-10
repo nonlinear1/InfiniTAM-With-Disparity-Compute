@@ -4,9 +4,6 @@
 
 #include "../ITMLib/ITMLib.h"
 
-//extern float focal_length_px;
-//extern float baseline_m;
-
 namespace InfiniTAM
 {
 	namespace Engine
