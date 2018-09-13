@@ -2,6 +2,7 @@
 #define COMPUTEDISPARITY_H
 
 #include <time.h>
+#include <mutex>
 #include "Disparity/libelas/src/elas.h"
 #include "Disparity/BM_SGBM/blockmatching.h"
 #include "Disparity/BM_SGBM/sgblockmatching.h"
@@ -69,7 +70,7 @@ public:
 
     char computeDisparityType;
     StereoImageParameters stereoImage;
-
+    std::mutex disparityMutex;
 
 private:
 

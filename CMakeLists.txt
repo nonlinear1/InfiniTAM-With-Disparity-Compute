@@ -44,7 +44,7 @@ include(${PROJECT_SOURCE_DIR}/cmake/UseOpenMP.cmake)
 
 
 set(SOURCES Main/InfiniTAM.cpp
-            Main/InfiniTAMThread.cpp
+#             Main/InfiniTAMThread.cpp
             Main/ComputeDisparity.cpp
             Disparity/libelas/src/filter.cpp
             Disparity/libelas/src/matrix.cpp
@@ -57,7 +57,7 @@ set(SOURCES Main/InfiniTAM.cpp
             Disparity/SPS_Stereo/SPSStereo.cpp )
 
 set(HEADERS Main/InfiniTAM.h
-            Main/InfiniTAMThread.h
+#             Main/InfiniTAMThread.h
             Main/ComputeDisparity.h
             Disparity/libelas/src/filter.h
             Disparity/libelas/src/triangle.cpp

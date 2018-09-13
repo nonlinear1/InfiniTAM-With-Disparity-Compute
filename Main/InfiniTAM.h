@@ -8,6 +8,7 @@
 #define SPS_MODE   4
 
 #include <thread>
+#include <mutex>
 #include <GL/glut.h>
 #include "Engine/UIEngine.h"
 #include "Engine/ImageSourceEngine.h"
@@ -15,14 +16,10 @@
 
 #include "ComputeDisparity.h"
 
+extern ComputeDisparity *computeDisparity;
+extern bool g_WaitComputeDisparity;
 
 using namespace InfiniTAM::Engine;
 
-
-extern ITMLibSettings    *settings;
-extern ITMMainEngine     *mainEngine;
-extern ImageSourceEngine *imageSource;
-extern ComputeDisparity  *computeDisparity;
-extern bool g_WaitComputeDisparity;
 
 #endif

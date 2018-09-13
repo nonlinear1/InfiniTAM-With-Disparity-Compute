@@ -58,7 +58,7 @@ void ComputeDisparity::Run()
     while(1)
     {
         //  infinitam thread dont need to compute disparity , wait for read stereo image.
-        while (!g_WaitComputeDisparity) usleep(1);   
+        while (!g_WaitComputeDisparity) usleep(1);  
 
         int32_t d_width  = this->stereoImage.width;
         int32_t d_height = this->stereoImage.height;
@@ -124,7 +124,7 @@ void ComputeDisparity::Run()
                 
             default: break;
         }
-
+        
         endTime = clock();
         
         cout <<"Compute disparity use: " << (double)(endTime-startTime)/CLOCKS_PER_SEC << "s." <<endl;
