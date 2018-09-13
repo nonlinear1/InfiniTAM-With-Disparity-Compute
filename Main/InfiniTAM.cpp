@@ -9,7 +9,7 @@ ITMMainEngine     *mainEngine;
 ImageSourceEngine *imageSource;
 ComputeDisparity  *computeDisparity;
 bool g_WaitComputeDisparity = false;
-std::thread *computeDisparityThread;
+
 
 
 //************************************************************//
@@ -33,7 +33,8 @@ int main(int argc, char** argv)
 
     mainEngine = new ITMMainEngine(settings, &imageSource->calib, imageSource->getRGBImageSize());
     
-    computeDisparityThread = new thread(&ComputeDisparity::Run,computeDisparity);
+    thread computeDisparityThread(&ComputeDisparity::Run,computeDisparity);
+    computeDisparityThread.detach();
 
     UIEngine::Instance()->Initialise(imageSource, mainEngine, settings->deviceType);
     UIEngine::Instance()->Run();

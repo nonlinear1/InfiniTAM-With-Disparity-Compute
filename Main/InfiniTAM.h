@@ -19,8 +19,6 @@
 using namespace InfiniTAM::Engine;
 
 
-
-extern std::thread *computeDisparityThread;
 extern ITMLibSettings    *settings;
 extern ITMMainEngine     *mainEngine;
 extern ImageSourceEngine *imageSource;
